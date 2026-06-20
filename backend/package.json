@@ -1,0 +1,19 @@
+{
+  "name": "noon-server",
+  "version": "1.0.0",
+  "description": "A real time tournament application where players pay and entry fee and compete for a prize pool after house rake deduction",
+  "license": "ISC",
+  "author": "Brian Gatundu Mwema",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/server.js",
+    "dev": "tsx watch ./src/server.ts",
+    "test": ""
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "tsx": "^4.22.4"
+  }
+}
